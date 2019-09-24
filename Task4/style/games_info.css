@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color:darkcyan;
+}
+.email {
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 80px;
+}
+a{
+    font-family:'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    color: whitesmoke;
+    background-color: darkcyan;
+    font-size: 20px; 
+    display: inline;
+    text-align: center;
+    padding: 0px 5% 0px 4%;
+}
+.tittle {
+    font-style: italic;
+    color:black;
+    text-align: center;
+    font-family: 'Chalkduster', fantasy;
+    padding: 40px 5px 5px 80px;
+    top: 5px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.p{
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    padding: 5px 5px 5px 300px;
+    letter-spacing: 2px;
+}
+.one {
+    pointer-events: inherit;
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.email{
+    background-color: white;
+    font-size: 15px;
+    margin-top: -35px;
+    margin-left: -30px;
+}
+.four{
+    text-align: inherit;
+    left: 400px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: auto;
+    padding: 5px 5px 5px 600px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+.three{
+    text-align: center;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+.two {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+p{
+    font-weight: bold;
+}
+th{
+    padding: 0px 50px 0px 50px;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+td{
+    padding: 5px 50px 5px 50px;
+    border-top: 1px solid black;
+}
+.s{
+    font-family: 'Segoe UI', sans-serif;
+    border: 3px solid white;
+    margin-left: 300px;
+}
+.l{
+    font-family: 'Segoe UI', sans-serif;
+    border: 3px solid white;
+    margin-left: 200px;
+}
+.o{
+    font-family: 'Segoe UI', sans-serif;
+    border: 3px solid white;
+    margin-left: 300px;
+}
+footer{
+    margin: 5px;
+    border-style: dotted none dotted none;
+}
+ul p {
+    font-weight: bold;
+}
+ul {
+    padding: 0px 0px 0px 30px;
+    list-style-type: none;
+}
+iframe{
+    width: 600;
+    height: 450;
+    border:0; 
+}

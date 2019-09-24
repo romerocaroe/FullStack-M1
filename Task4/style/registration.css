@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color:darkcyan;
+}
+a{
+    font-family:'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    color: whitesmoke;
+    background-color: darkcyan;
+    font-size: 20px; 
+    display: inline;
+    text-align: center;
+    padding: 0px 5% 0px 4%;
+}
+.tittle {
+    font-style: italic;
+    color:black;
+    text-align: center;
+    font-family: 'Chalkduster', fantasy;
+    padding: 40px 5px 5px 80px;
+    top: 5px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.one {
+    pointer-events: inherit;
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.three{
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    text-align: center
+}
+.two {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.home{
+    float: left;
+    right: 50%;
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px 0px 5px 40px;
+}
+legend{
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 0px 2px 5px 2px;
+}
+fieldset{
+    border: none;
+    border-style: none;
+    margin-left: 220px;
+}
+form {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    border: none;
+    border-style: none;
+}
+fieldset{
+    background-color: #f2f2f2;
+}
+.date{
+    font-size: 15px;
+    padding: 6px 10px;
+}
+.input{
+    width: 20%;
+    padding: 16px 20px;
+    display: block;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select {
+    width: 20%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+}
+input[type=submit] {
+    width: 84%;
+    background-color:darkcyan;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+input[type=submit]:hover {
+    background-color:darkgray;
+}
+.center {
+    text-align: center;
+}
+.school {
+    padding: 0px 5% 0px 5%;
+}
+.permission{
+    padding: 0px 30px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify;
+}
+.permission_tittle{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.permission_p{
+    font-size: 14px;
+}
+.permission_sign{
+    text-align: center;
+    font-weight: bold;
+}

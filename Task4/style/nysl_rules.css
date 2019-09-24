@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color:darkcyan;
+}
+a{
+    font-family:'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    color: whitesmoke;
+    background-color: darkcyan;
+    font-size: 20px; 
+    display: inline;
+    text-align: center;
+    padding: 0px 5% 0px 4%;
+}
+.tittle {
+    font-style: italic;
+    color:black;
+    text-align: center;
+    font-family: 'Chalkduster', fantasy;
+    padding: 40px 5px 5px 80px;
+    top: 5px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.one {
+    pointer-events: inherit;
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.three{
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    text-align: center
+}
+.two {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color:darkcyan;
+    color: whitesmoke;
+    padding: 2px 5px 2px 5px;
+}
+.home{
+    position: absolute;
+    left: 15%;
+    float: left;
+    list-style-type: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+.p{
+    font-style: italic;
+    font-family:'Segoe UI', sans-serif;
+    padding: 5px 5px 5px 200px;
+    letter-spacing: 2px;
+}
+li{
+    text-align: left;
+}
+.space{
+    padding: 3px 10px 3px 0px;
+}
+.liststyle{
+    list-style-type: none;
+}
